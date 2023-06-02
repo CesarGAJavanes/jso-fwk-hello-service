@@ -31,7 +31,7 @@ spec:
               path: /actuator/health
               port: 8181
               scheme: HTTP
-            initialDelaySeconds: 140
+            initialDelaySeconds: 120
             periodSeconds: 10
             timeoutSeconds: 10
           readinessProbe:
@@ -40,7 +40,7 @@ spec:
               path: /actuator/health
               port: 8181
               scheme: HTTP
-            initialDelaySeconds: 140
+            initialDelaySeconds: 120
             periodSeconds: 10
             timeoutSeconds: 10
           resources:
